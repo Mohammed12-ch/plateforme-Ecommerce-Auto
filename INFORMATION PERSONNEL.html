@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire d'Achat de Voiture</title>
+    <link rel="stylesheet" href="style infor.css">
+</head>
+<body>
+    <div class="form-container">
+        <h1>Acheter une Voiture</h1>
+        <form action="#" method="post">
+            <fieldset>
+                <legend>Informations Personnelles</legend>
+                <label for="name">Nom:</label><br>
+                <input type="text" id="name" name="name" required><br><br>
+                <label for="prenom">Prenom:</label><br>
+                <input type="text" id="prenom" name="prenom" required><br><br>
+                <label for="email">Adresse e-mail:</label><br>
+                <input type="email" id="email" name="email"  placeholder="adresse@gmail.com"><br><br>
+
+                <label for="phone">Numéro de téléphone:</label><br>
+                <input type="tel" id="phone" name="phone" required><br><br>
+
+                <label for="address">Adresse:</label><br>
+                <input type="text" id="address" name="address" required><br><br>
+            </fieldset>
+            <fieldset>
+                <legend>Informations sur la Voiture</legend>
+                <label for="car-model">Modèle de la voiture:</label><br>
+                <input type="text" id="car-model" name="car-model" required><br><br>
+
+                <label for="year">Année de fabrication:</label><br>
+                <input type="number" id="year" name="year" min="1886" required><br><br>
+
+                <label for="price">Prix:</label><br>
+                <input type="number" id="price" name="price" required><br><br>
+
+                <label for="color">Couleur:</label><br>
+                <input type="text" id="color" name="color" required><br><br>
+
+                <label for="additional-info">Informations supplémentaires:</label><br>
+                <textarea id="additional-info" name="additional-info"></textarea><br><br>
+            </fieldset>
+            <button  onclick="window.location.href='index.html'" type="submit">Acheter</button>
+        </form>
+    </div>
+</body> 
+</html>
